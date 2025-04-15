@@ -1,5 +1,5 @@
 {
-  "name": "json-cleaner",
+  "name": "json-purify",
   "version": "1.0.0",
   "description": "A TypeScript utility to clean JSON by removing null, undefined, and empty values.",
   "main": "dist/index.js",
