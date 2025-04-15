@@ -1,0 +1,30 @@
+{
+  "name": "json-cleaner",
+  "version": "1.0.0",
+  "description": "A TypeScript utility to clean JSON by removing null, undefined, and empty values.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "json-cleaner": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "json",
+    "clean",
+    "typescript",
+    "utility"
+  ],
+  "author": "Abhiram",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.9",
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
